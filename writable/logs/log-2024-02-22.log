@@ -1,0 +1,124 @@
+CRITICAL - 2024-02-22 12:00:10 --> Invalid file: layout/head.php
+#0 C:\webPG\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/head.php')
+#1 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('layout/head', Array, true)
+#2 C:\webPG\app\Views\login.php(1): view('layout/head')
+#3 C:\webPG\system\View\View.php(210): include('C:\\webPG\\app\\Vi...')
+#4 C:\webPG\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#6 C:\webPG\app\Controllers\Home.php(29): view('login')
+#7 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#12 {main}
+CRITICAL - 2024-02-22 12:02:59 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Home.php(43): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:03:42 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Home.php(43): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:05:30 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Home.php(43): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:15:49 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Data_Pegawai.php(88): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Data_Pegawai->edit('6')
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Pegawai))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:23:42 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Data_Pegawai.php(64): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Data_Pegawai->tambah()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Pegawai))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:31:32 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(134): CodeIgniter\Model->__call('superOderByWher...', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->pembelian_tiket()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:32:28 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(74): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->edit_permainan('2')
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:33:54 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(74): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->edit_permainan('2')
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:47:54 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(134): CodeIgniter\Model->__call('superOderByWher...', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->pembelian_tiket()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:48:14 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(134): CodeIgniter\Model->__call('superOderByWher...', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->pembelian_tiket()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-22 12:49:18 --> You must set the database table to be used with your query.
+#0 C:\webPG\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\webPG\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\webPG\app\Controllers\Playground.php(142): CodeIgniter\Model->__call('tampil', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->pembelian_tiket()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}

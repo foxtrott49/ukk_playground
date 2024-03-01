@@ -1,0 +1,39 @@
+CRITICAL - 2024-02-27 10:13:29 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\webPG\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\webPG\\app\\Mo...')
+#1 C:\webPG\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\webPG\app\Controllers\Home.php(80): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#9 {main}
+CRITICAL - 2024-02-27 10:23:25 --> Invalid file: /Playground/nota.php
+#0 C:\webPG\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Playground/not...')
+#1 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('/Playground/not...', Array, true)
+#2 C:\webPG\app\Controllers\Playground.php(203): view('/Playground/not...')
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->print_pembelian_tiket('22')
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-27 12:00:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\webPG\app\Controllers\Playground.php(216): App\Models\M_model->pajak('pajak')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->pajak_pembelian_tiket()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+CRITICAL - 2024-02-27 12:06:21 --> Too few arguments to function App\Controllers\Playground::perubahan_pajak_pembelian_tiket(), 0 passed in C:\webPG\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Playground->perubahan_pajak_pembelian_tiket()
+#1 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playground))
+#2 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#5 {main}
+ERROR - 2024-02-27 12:07:33 --> Column 'persen_pajak' cannot be null
+ERROR - 2024-02-27 12:08:10 --> Column 'persen_pajak' cannot be null
+ERROR - 2024-02-27 12:09:18 --> Column 'persen_pajak' cannot be null

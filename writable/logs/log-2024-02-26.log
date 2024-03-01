@@ -1,0 +1,78 @@
+CRITICAL - 2024-02-26 10:56:59 --> syntax error, unexpected '}', expecting end of file
+#0 C:\webPG\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\webPG\app\Controllers\Home.php(96): view('dashboard', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-26 10:58:09 --> syntax error, unexpected '}', expecting end of file
+#0 C:\webPG\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\webPG\app\Controllers\Home.php(96): view('dashboard', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+CRITICAL - 2024-02-26 10:58:45 --> syntax error, unexpected '}', expecting end of file
+#0 C:\webPG\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\webPG\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\webPG\app\Controllers\Home.php(96): view('dashboard', Array)
+#3 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#8 {main}
+ERROR - 2024-02-26 13:57:18 --> Unknown column 'pengeluaran.maker_pengeluaran' in 'on clause'
+CRITICAL - 2024-02-26 13:57:18 --> Call to a member function getResult() on bool
+#0 C:\webPG\app\Controllers\Laporan.php(201): App\Models\M_model->fusionOderBy('pengeluaran', 'pegawai', 'pengeluaran.mak...', 'id')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Laporan->pengeluaran()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+ERROR - 2024-02-26 13:58:05 --> Unknown column 'pengeluaran.maker_pengeluaran' in 'on clause'
+CRITICAL - 2024-02-26 13:58:05 --> Call to a member function getResult() on bool
+#0 C:\webPG\app\Controllers\Laporan.php(201): App\Models\M_model->fusionOderBy('pengeluaran', 'pegawai', 'pengeluaran.mak...', 'id_pengeluaran')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Laporan->pengeluaran()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+ERROR - 2024-02-26 13:58:11 --> Unknown column 'pengeluaran.maker_pengeluaran' in 'on clause'
+CRITICAL - 2024-02-26 13:58:11 --> Call to a member function getResult() on bool
+#0 C:\webPG\app\Controllers\Laporan.php(201): App\Models\M_model->fusionOderBy('pengeluaran', 'pegawai', 'pengeluaran.mak...', 'id_pengeluaran')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Laporan->pengeluaran()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+ERROR - 2024-02-26 14:00:40 --> Unknown column 'pengeluaran.maker_pengeluaran' in 'on clause'
+CRITICAL - 2024-02-26 14:00:40 --> Call to a member function getResult() on bool
+#0 C:\webPG\app\Controllers\Laporan.php(201): App\Models\M_model->fusionOderBy('pengeluaran', 'user', 'pengeluaran.mak...', 'id_pengeluaran')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Laporan->pengeluaran()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+ERROR - 2024-02-26 14:01:15 --> Unknown column 'pengeluaran.maker_pengeluaran' in 'on clause'
+CRITICAL - 2024-02-26 14:01:15 --> Call to a member function getResult() on bool
+#0 C:\webPG\app\Controllers\Laporan.php(201): App\Models\M_model->fusionOderBy('pengeluaran', 'user', 'pengeluaran.mak...', 'id_pengeluaran')
+#1 C:\webPG\system\CodeIgniter.php(832): App\Controllers\Laporan->pengeluaran()
+#2 C:\webPG\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\webPG\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\webPG\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\webPG\system\Commands\Server\rewrite.php(43): require_once('C:\\webPG\\public...')
+#6 {main}
+ERROR - 2024-02-26 14:08:45 --> Column 'username' cannot be null
+ERROR - 2024-02-26 14:10:17 --> Column 'jumlah_pengeluaran' cannot be null
+ERROR - 2024-02-26 14:12:13 --> Column 'jumlah_pengeluaran' cannot be null
